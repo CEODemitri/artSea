@@ -1,15 +1,3 @@
-<nav>
-	<ul class="flex">
-		<a href="/">home</a>
-		<li>
-			<a href="#prints">Prints</a>
-		</li>
-		<li>
-			<a href="#originals">Originals</a>
-		</li>
-	</ul>
-</nav>
-
 <div>
 	<section class="w-[425px]">
 		<h1 id="prints">Prints</h1>
