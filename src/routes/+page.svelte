@@ -32,22 +32,21 @@
 	}
 </script>
 
-<section class="w-screen py-12 md:py-24 lg:py-32">
-	<div class="container px-4 md:px-6">
+<section class="w-full py-12 md:py-24 lg:py-32">
+	<div class="px-4 md:px-6">
 		<div class="flex flex-col items-center justify-center space-y-4 text-center">
 			<div class="space-y-2">
 				<div class="inline-block rounded-lg bg-gray-100 px-3 py-1 text-sm dark:bg-gray-800">
-					New Features
+					Made in Love
 				</div>
 				<h2 class="text-3xl font-bold tracking-tighter sm:text-5xl">
-					Faster iteration. More innovation.
+					Cultivate Wisdom of Gods.Release Power of Nature. Return Sight of Man.
 				</h2>
 				<p
 					class="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400"
 				>
-					The platform for rapid progress. Let your team focus on shipping features instead of
-					managing infrastructure with automated CI/CD, built-in testing, and integrated
-					collaboration.
+					Let us drive to a new world; one of growth and kareful to build in power. Let's Step
+					outside the box to destroy the redundance making way for a new brilliant age.
 				</p>
 			</div>
 			<div class="flex flex-col gap-2 min-[400px]:flex-row">
@@ -89,13 +88,14 @@
 		<button
 			class="ring-offset-background focus-visible:ring-ring mt-4 inline-flex h-10 items-center justify-center whitespace-nowrap rounded bg-gray-900 px-4 py-2 text-sm font-medium text-white transition-colors duration-300 hover:bg-gray-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
 		>
-			Click Me
+			Visit Musuem
 		</button>
 	</div>
 </div>
 
-<div>
-	<div class="card grid grid-cols-[auto_1fr_auto] items-center gap-4 p-4">
+<div class="mt-10">
+	<h2 class="text-2xl">The Reason we Exist</h2>
+	<div class="card grid grid-cols-[auto_1fr_auto] items-center gap-4 bg-transparent p-4">
 		<!-- Button: Left -->
 		<button type="button" class="variant-filled btn-icon" on:click={carouselLeft}>
 			<i class="fa-solid fa-arrow-left" />
@@ -118,34 +118,109 @@
 	</div>
 </div>
 
-<section class="w-full py-12 md:py-24 lg:py-32">
-	<div class="container grid grid-cols-1 gap-4 px-4 md:grid-cols-3 md:px-6 lg:gap-10">
-		<div class="space-y-3">
-			<h2 class="text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl">Design</h2>
-			<p
-				class="mx-auto max-w-[700px] text-gray-500 md:text-lg/relaxed lg:text-base/relaxed xl:text-lg/relaxed dark:text-gray-400"
-			>
-				Creating visually stunning designs that captivate your audience.
-			</p>
-		</div>
-		<div class="space-y-3">
-			<h2 class="text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl">Develop</h2>
-			<p
-				class="mx-auto max-w-[700px] text-gray-500 md:text-lg/relaxed lg:text-base/relaxed xl:text-lg/relaxed dark:text-gray-400"
-			>
-				Building robust and scalable solutions that drive your business.
-			</p>
-		</div>
-		<div class="space-y-3">
-			<h2 class="text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl">Deliver</h2>
-			<p
-				class="mx-auto max-w-[700px] text-gray-500 md:text-lg/relaxed lg:text-base/relaxed xl:text-lg/relaxed dark:text-gray-400"
-			>
-				Ensuring timely delivery of projects that meet your expectations.
-			</p>
-		</div>
+<!-- featured carousel -->
+<div class="flex w-full flex-col items-center gap-4">
+	<div
+		class="bg-card text-card-foreground flex w-full flex-col items-center rounded-lg border p-4 shadow-sm"
+		data-v0-t="card"
+	>
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			width="24"
+			height="24"
+			viewBox="0 0 24 24"
+			fill="none"
+			stroke="currentColor"
+			stroke-width="2"
+			stroke-linecap="round"
+			stroke-linejoin="round"
+			class="h-12 w-12 text-gray-900 dark:text-gray-50"
+		>
+			<path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"></path>
+		</svg>
+		<h3 class="mt-4 whitespace-nowrap text-lg font-semibold tracking-tight">Cloud Storage</h3>
+		<p class="mt-2 text-sm text-gray-500 dark:text-gray-400">
+			Store your data securely in the cloud with our encrypted storage solutions.
+		</p>
 	</div>
-</section>
+	<div
+		class="bg-card text-card-foreground flex w-full flex-col items-center rounded-lg border p-4 shadow-sm"
+		data-v0-t="card"
+	>
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			width="24"
+			height="24"
+			viewBox="0 0 24 24"
+			fill="none"
+			stroke="currentColor"
+			stroke-width="2"
+			stroke-linecap="round"
+			stroke-linejoin="round"
+			class="h-12 w-12 text-gray-900 dark:text-gray-50"
+		>
+			<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"></path>
+			<path d="m9 12 2 2 4-4"></path>
+		</svg>
+		<h3 class="mt-4 whitespace-nowrap text-lg font-semibold tracking-tight">Secure Access</h3>
+		<p class="mt-2 text-sm text-gray-500 dark:text-gray-400">
+			Protect your data with our advanced security measures and access controls.
+		</p>
+	</div>
+	<div
+		class="bg-card text-card-foreground flex w-full flex-col items-center rounded-lg border p-4 shadow-sm"
+		data-v0-t="card"
+	>
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			width="24"
+			height="24"
+			viewBox="0 0 24 24"
+			fill="none"
+			stroke="currentColor"
+			stroke-width="2"
+			stroke-linecap="round"
+			stroke-linejoin="round"
+			class="h-12 w-12 text-gray-900 dark:text-gray-50"
+		>
+			<line x1="12" x2="12" y1="20" y2="10"></line>
+			<line x1="18" x2="18" y1="20" y2="4"></line>
+			<line x1="6" x2="6" y1="20" y2="16"></line>
+		</svg>
+		<h3 class="mt-4 whitespace-nowrap text-lg font-semibold tracking-tight">Analytics</h3>
+		<p class="mt-2 text-sm text-gray-500 dark:text-gray-400">
+			Get insights into your data with our powerful analytics tools.
+		</p>
+	</div>
+	<div
+		class="bg-card text-card-foreground flex w-full flex-col items-center rounded-lg border p-4 shadow-sm"
+		data-v0-t="card"
+	>
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			width="24"
+			height="24"
+			viewBox="0 0 24 24"
+			fill="none"
+			stroke="currentColor"
+			stroke-width="2"
+			stroke-linecap="round"
+			stroke-linejoin="round"
+			class="h-12 w-12 text-gray-900 dark:text-gray-50"
+		>
+			<circle cx="12" cy="12" r="10"></circle>
+			<line x1="2" x2="22" y1="12" y2="12"></line>
+			<path
+				d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
+			></path>
+		</svg>
+		<h3 class="mt-4 whitespace-nowrap text-lg font-semibold tracking-tight">Global Network</h3>
+		<p class="mt-2 text-sm text-gray-500 dark:text-gray-400">
+			Access your data from anywhere in the world through our global network.
+		</p>
+	</div>
+</div>
+<!-- featured carousel end -->
 
 <section class="w-full py-12 md:py-24 lg:py-32 xl:py-48">
 	<div class="container px-4 md:px-6">
@@ -304,6 +379,67 @@
 		</div>
 	</div>
 </section>
+
+<!-- about us section start -->
+<section
+	class="flex flex-col items-center justify-center gap-6 px-4 py-6 md:flex-row md:items-start md:gap-12 md:px-6 md:py-12"
+>
+	<img
+		src=""
+		alt="About Us"
+		width="500"
+		height="500"
+		class="h-64 w-full rounded-lg object-cover md:h-auto md:w-1/2"
+		style="aspect-ratio: 500 / 500; object-fit: cover;"
+	/>
+	<div class="space-y-4 md:w-1/2">
+		<h2 class="text-3xl font-bold tracking-tighter md:text-4xl lg:text-5xl">About Us</h2>
+		<p class="text-gray-500 md:text-lg lg:text-xl">
+			We are a team of passionate individuals committed to building the best web experiences. Our
+			mission is to empower teams of all sizes to create and innovate.
+		</p>
+		<a
+			class="inline-flex h-10 items-center justify-center rounded-md bg-gray-900 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
+			href="#"
+		>
+			Learn More
+		</a>
+		<div class="mt-4 flex space-x-4">
+			<a href="#">
+				<img
+					src=""
+					alt="Avatar 1"
+					width="50"
+					height="50"
+					class="rounded-full"
+					style="aspect-ratio: 50 / 50; object-fit: cover;"
+				/>
+			</a>
+			<a href="#">
+				<img
+					src=""
+					alt="Avatar 2"
+					width="50"
+					height="50"
+					class="rounded-full"
+					style="aspect-ratio: 50 / 50; object-fit: cover;"
+				/>
+			</a>
+			<a href="#">
+				<img
+					src=""
+					alt="Avatar 3"
+					width="50"
+					height="50"
+					class="rounded-full"
+					style="aspect-ratio: 50 / 50; object-fit: cover;"
+				/>
+			</a>
+		</div>
+	</div>
+</section>
+
+<!-- about us section end -->
 
 <style>
 </style>
