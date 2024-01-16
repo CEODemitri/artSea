@@ -11,8 +11,9 @@
 <AppShell>
 	<svelte:fragment slot="header">
 		<AppBar>
-			<svelte:fragment slot="lead">(icon)</svelte:fragment>
-			<a href="/">Artsea</a>
+			<svelte:fragment slot="lead"
+				><a href="/" class="text-2xl font-bold">Artsea</a></svelte:fragment
+			>
 			<svelte:fragment slot="trail"><LightSwitch /></svelte:fragment>
 		</AppBar>
 	</svelte:fragment>
