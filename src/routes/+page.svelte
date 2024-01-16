@@ -81,7 +81,7 @@
 			class="h-64 w-full rounded-lg object-cover"
 			style="aspect-ratio: 200 / 200; object-fit: cover;"
 		/>
-		<h3 class="mt-4 text-lg font-semibold">Fancy Card Title</h3>
+		<h3 class="mt-4 text-lg font-semibold">Made different</h3>
 		<p class="mt-2 text-sm text-gray-500">
 			This is a fancy interactive card. It scales up and adds a shadow when hovered over.
 		</p>
@@ -94,7 +94,7 @@
 </div>
 
 <div class="mt-10">
-	<h2 class="text-2xl">The Reason we Exist</h2>
+	<h2 class="text-2xl">Past Collections</h2>
 	<div class="card grid grid-cols-[auto_1fr_auto] items-center gap-4 bg-transparent p-4">
 		<!-- Button: Left -->
 		<button type="button" class="variant-filled btn-icon" on:click={carouselLeft}>
@@ -119,6 +119,7 @@
 </div>
 
 <!-- featured carousel -->
+<h2 class="mt-5 text-2xl">Inspired By:</h2>
 <div class="flex w-full flex-col items-center gap-4">
 	<div
 		class="bg-card text-card-foreground flex w-full flex-col items-center rounded-lg border p-4 shadow-sm"
@@ -223,12 +224,12 @@
 <!-- featured carousel end -->
 
 <section class="w-full py-12 md:py-24 lg:py-32 xl:py-48">
-	<div class="container px-4 md:px-6">
+	<div class="px-4 md:px-6">
 		<div class="grid items-center gap-6">
 			<div class="flex flex-col justify-center space-y-8 text-center">
 				<div class="space-y-2">
 					<h1 class=" text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-						Discover Our Unique Features
+						Driving towards the Future
 					</h1>
 					<p class="mx-auto max-w-[600px] md:text-xl dark:text-zinc-100">
 						Our features are designed to enhance your productivity and streamline your workflow.
