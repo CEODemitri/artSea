@@ -32,6 +32,8 @@
 	}
 </script>
 
+<!-- hero section start -->
+<!-- hero section 1 -->
 <section class="w-full py-12 md:py-24 lg:py-32">
 	<div class="px-4 md:px-6">
 		<div class="flex flex-col items-center justify-center space-y-4 text-center">
@@ -40,13 +42,14 @@
 					Made in Love
 				</div>
 				<h2 class="text-3xl font-bold tracking-tighter sm:text-5xl">
-					Cultivate Wisdom of Gods.Release Power of Nature. Return Sight of Man.
+					Imagine a world of Innovation for everyone.
 				</h2>
 				<p
 					class="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400"
 				>
-					Let us drive to a new world; one of growth and kareful to build in power. Let's Step
-					outside the box to destroy the redundance making way for a new brilliant age.
+					Let us drive to a new world; one of growth and mindful to cultivate power never before
+					seen. You know the world has more to offer. This journey has many more riches to aquire
+					and experience.
 				</p>
 			</div>
 			<div class="flex flex-col gap-2 min-[400px]:flex-row">
@@ -67,34 +70,34 @@
 	</div>
 </section>
 
+<!-- hero section 2 -->
 <div
-	class="bg-card text-card-foreground transform rounded-lg border shadow-sm transition-transform duration-500 hover:scale-105 hover:shadow-lg"
+	class="bg-card text-card-foreground transform rounded-lg shadow-sm transition-transform duration-500 hover:scale-105 hover:shadow-lg"
 	data-v0-t="card"
 >
-	<div class="p-6">
-		<!-- svelte-ignore a11y-img-redundant-alt -->
+	<div class="px-6 py-3">
 		<img
-			src="https://th.bing.com/th/id/OIP.Fcvd4rBJzDTC8fibpkTSLgHaD4?w=340&h=180&c=7&r=0&o=5&dpr=2&pid=1.7"
-			alt="Card Image 1"
-			width="200"
-			height="200"
-			class="h-64 w-full rounded-lg object-cover"
-			style="aspect-ratio: 200 / 200; object-fit: cover;"
+			src="../odyssey.jpeg"
+			alt="my First Odyssey into a brandnew land."
+			class="h-64 w-full rounded-lg object-cover lg:h-[600px]"
+			style="aspect-ratio: 200 / 400; object-fit: cover;"
 		/>
 		<h3 class="mt-4 text-lg font-semibold">Made different</h3>
 		<p class="mt-2 text-sm text-gray-500">
-			This is a fancy interactive card. It scales up and adds a shadow when hovered over.
+			To stay up to date with our vision/roadmap, use the button below for a calendar view.
 		</p>
 		<button
 			class="ring-offset-background focus-visible:ring-ring mt-4 inline-flex h-10 items-center justify-center whitespace-nowrap rounded bg-gray-900 px-4 py-2 text-sm font-medium text-white transition-colors duration-300 hover:bg-gray-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
 		>
-			Visit Musuem
+			Calendar
 		</button>
 	</div>
 </div>
+<!-- hero section end -->
 
+<!-- feature section start -->
 <div class="mt-10">
-	<h2 class="text-2xl">Past Collections</h2>
+	<h2 class="px-6 text-2xl">Feature Pieces</h2>
 	<div class="card grid grid-cols-[auto_1fr_auto] items-center gap-4 bg-transparent p-4">
 		<!-- Button: Left -->
 		<button type="button" class="variant-filled btn-icon" on:click={carouselLeft}>
@@ -116,10 +119,13 @@
 			<i class="fa-solid fa-arrow-right" />
 		</button>
 	</div>
-</div>
 
-<!-- featured carousel -->
-<h2 class="mt-5 text-2xl">Inspired By:</h2>
+	<a href="/" class="px-6 underline">See More Works</a>
+</div>
+<!-- feature section end -->
+
+<!-- inspiration section start -->
+<h2 class="mt-10 px-6 text-2xl">What Inspires Us</h2>
 <div class="flex w-full flex-col items-center gap-4">
 	<div
 		class="bg-card text-card-foreground flex w-full flex-col items-center rounded-lg border p-4 shadow-sm"
@@ -221,7 +227,7 @@
 		</p>
 	</div>
 </div>
-<!-- featured carousel end -->
+<!-- inspiration section end -->
 
 <section class="w-full py-12 md:py-24 lg:py-32 xl:py-48">
 	<div class="px-4 md:px-6">
@@ -229,10 +235,11 @@
 			<div class="flex flex-col justify-center space-y-8 text-center">
 				<div class="space-y-2">
 					<h1 class=" text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-						Driving towards the Future
+						Pioneering a new future.
 					</h1>
 					<p class="mx-auto max-w-[600px] md:text-xl dark:text-zinc-100">
-						Our features are designed to enhance your productivity and streamline your workflow.
+						Stand with us as we make waves producing the arts of our generations. The goal has been
+						set by ancestors and descendants.
 					</p>
 				</div>
 				<div class="mx-auto w-full max-w-full space-y-4">
@@ -248,14 +255,14 @@
 								stroke-width="2"
 								stroke-linecap="round"
 								stroke-linejoin="round"
-								class="mb-2 h-6 w-6 rounded-full border-2 border-gray-500"
+								class="mb-2 h-6 w-6"
 							>
 								<polyline points="22 12 16 12 14 15 10 15 8 12 2 12"></polyline>
 								<path
 									d="M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"
 								></path>
 							</svg>
-							<h2 class="text-xl font-bold">Smart Inbox</h2>
+							<h2 class="text-xl font-bold">Your Smarter Inbox</h2>
 							<p class="dark:text-zinc-100">
 								Our Smart Inbox feature helps you manage your emails efficiently by prioritizing
 								important emails.
@@ -272,7 +279,7 @@
 								stroke-width="2"
 								stroke-linecap="round"
 								stroke-linejoin="round"
-								class="mb-2 h-6 w-6 rounded-full border-2 border-gray-500"
+								class="mb-2 h-6 w-6"
 							>
 								<path d="m8 6 4-4 4 4"></path>
 								<path d="M12 2v10.3a4 4 0 0 1-1.172 2.872L4 22"></path>
@@ -295,7 +302,7 @@
 								stroke-width="2"
 								stroke-linecap="round"
 								stroke-linejoin="round"
-								class="mb-2 h-6 w-6 rounded-full border-2 border-gray-500"
+								class="mb-2 h-6 w-6"
 							>
 								<path
 									d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"
@@ -319,7 +326,7 @@
 								stroke-width="2"
 								stroke-linecap="round"
 								stroke-linejoin="round"
-								class="mb-2 h-6 w-6 rounded-full border-2 border-gray-500"
+								class="mb-2 h-6 w-6"
 							>
 								<circle cx="11" cy="11" r="8"></circle>
 								<path d="m21 21-4.3-4.3"></path>
@@ -341,7 +348,7 @@
 								stroke-width="2"
 								stroke-linecap="round"
 								stroke-linejoin="round"
-								class="mb-2 h-6 w-6 rounded-full border-2 border-gray-500"
+								class="mb-2 h-6 w-6"
 							>
 								<rect width="18" height="11" x="3" y="11" rx="2" ry="2"></rect>
 								<path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
@@ -362,7 +369,7 @@
 								stroke-width="2"
 								stroke-linecap="round"
 								stroke-linejoin="round"
-								class="mb-2 h-6 w-6 rounded-full border-2 border-gray-500"
+								class="mb-2 h-6 w-6"
 							>
 								<path d="m8 6 4-4 4 4"></path>
 								<path d="M12 2v10.3a4 4 0 0 1-1.172 2.872L4 22"></path>

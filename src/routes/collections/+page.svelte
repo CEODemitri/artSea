@@ -41,7 +41,7 @@
 				<h3 class="font-semibold tracking-tight">Product 1</h3>
 				<h4 class="font-semibold">$19.99</h4>
 				<button
-					class="ring-offset-background focus-visible:ring-ring bg-primary text-primary-foreground hover:bg-primary/90 mt-2 inline-flex h-10 items-center justify-center rounded-md px-4 py-2 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+					class="ing-offset-background focus-visible:ring-ring mt-4 inline-flex h-10 items-center justify-center whitespace-nowrap rounded bg-gray-900 px-4 py-2 text-sm font-medium text-white transition-colors duration-300 hover:bg-gray-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
 				>
 					Add to Cart
 				</button>
@@ -61,7 +61,11 @@
 			<div class="flex-1 py-4">
 				<h3 class="font-semibold tracking-tight">Product 2</h3>
 				<h4 class="font-semibold">$29.99</h4>
-				<button class="variant-filled btn"> Add to Cart </button>
+				<button
+					class="ing-offset-background focus-visible:ring-ring mt-4 inline-flex h-10 items-center justify-center whitespace-nowrap rounded bg-gray-900 px-4 py-2 text-sm font-medium text-white transition-colors duration-300 hover:bg-gray-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+				>
+					Add to Cart
+				</button>
 			</div>
 		</div>
 		<div class="group relative">
@@ -78,7 +82,11 @@
 			<div class="flex-1 py-4">
 				<h3 class="font-semibold tracking-tight">Product 3</h3>
 				<h4 class="font-semibold">$14.99</h4>
-				<button class="variant-filled btn"> Add to Cart </button>
+				<button
+					class="ing-offset-background focus-visible:ring-ring mt-4 inline-flex h-10 items-center justify-center whitespace-nowrap rounded bg-gray-900 px-4 py-2 text-sm font-medium text-white transition-colors duration-300 hover:bg-gray-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+				>
+					Add to Cart
+				</button>
 			</div>
 		</div>
 		<div class="group relative">
@@ -95,7 +103,11 @@
 			<div class="flex-1 py-4">
 				<h3 class="font-semibold tracking-tight">Product 4</h3>
 				<h4 class="font-semibold">$39.99</h4>
-				<button class="variant-filled btn"> Add to Cart </button>
+				<button
+					class="ing-offset-background focus-visible:ring-ring mt-4 inline-flex h-10 items-center justify-center whitespace-nowrap rounded bg-gray-900 px-4 py-2 text-sm font-medium text-white transition-colors duration-300 hover:bg-gray-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+				>
+					Add to Cart
+				</button>
 			</div>
 		</div>
 	</div>
