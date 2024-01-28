@@ -44,3 +44,8 @@ Sveltekit
 TailwindCSS
 SkeletonUI; app shell, nav bar
 v0, hero section layout
+
+## Objectives
+
+1. Provide a Service
+2. logo / favicon
