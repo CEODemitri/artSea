@@ -30,6 +30,9 @@
 				: elemCarousel.scrollLeft + elemCarousel.clientWidth; // step right
 		elemCarousel.scroll(x, 0);
 	}
+
+	import Icon from 'svelte-icons-pack/Icon.svelte';
+	import AiOutlineNodeExpand from 'svelte-icons-pack/ai/AiOutlineNodeExpand';
 </script>
 
 <!-- hero section start -->
@@ -47,9 +50,8 @@
 				<p
 					class="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400"
 				>
-					Who would like a ride to a Marvelous Future. Pure Intentions to paint a better world with
-					space only for the greatest. Look up. One wrong move and the current bubble could pop. We
-					make Our Rules. Heroes of Our Time. March.
+					Artsea is a new company, rooted deeply in Creating and Inspiring. We are bringing passion
+					to the market.
 				</p>
 			</div>
 			<div class="flex flex-col gap-2 min-[400px]:flex-row">
@@ -66,6 +68,8 @@
 					Shop Collection
 				</a>
 			</div>
+			<!-- using for example. does work -->
+			<Icon src={AiOutlineNodeExpand} />
 		</div>
 	</div>
 </section>
