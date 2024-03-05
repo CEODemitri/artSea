@@ -101,15 +101,15 @@
 
 <!-- feature section start -->
 <section class="w-full py-12 md:py-24 lg:py-32">
-	<div class="container px-4 md:px-6">
+	<div class="container m-auto px-4 md:px-6">
 		<div class="flex flex-col items-center space-y-4 text-center">
 			<h1 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
-				Discover Unique Artwork
+				Discover A New Perspective
 			</h1>
 			<p
 				class="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400"
 			>
-				Today we start humbly, pioneering a fresh new venture. Explore with us.
+				Today we start humbly, pioneering a fresh venture. Explore with me.
 			</p>
 		</div>
 		<div
@@ -120,7 +120,7 @@
 					alt="Artwork 1"
 					class="aspect-[1/1] overflow-hidden rounded-lg object-cover object-center"
 					height="200"
-					src="/placeholder.svg"
+					src="/discover/fish.png"
 					width="200"
 				/>
 				<h3 class="text-lg font-bold">Artwork Title 1</h3>
@@ -168,18 +168,18 @@
 	class="flex flex-col items-center justify-center gap-6 px-4 py-6 md:flex-row md:items-start md:gap-12 md:px-6 md:py-12"
 >
 	<img
-		src=""
+		src="/about/me.png"
 		alt="About Us"
 		width="500"
 		height="500"
-		class="h-64 w-full rounded-lg object-cover md:h-auto md:w-1/2"
+		class="h-64 w-full rounded-lg md:h-auto md:w-1/2"
 		style="aspect-ratio: 500 / 500; object-fit: cover;"
 	/>
 	<div class="space-y-4 md:w-1/2">
 		<h2 class="text-3xl font-bold tracking-tighter md:text-4xl lg:text-5xl">About Us</h2>
 		<p class="text-gray-500 md:text-lg lg:text-xl">
-			We are a team of passionate individuals committed to building the best web experiences. Our
-			mission is to empower teams of all sizes to create and innovate.
+			Born in America, I feel my real home is the earth. I ignore these imaginary lines to draw my
+			own reality.
 		</p>
 		<a
 			class="inline-flex h-10 items-center justify-center rounded-md bg-gray-900 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
