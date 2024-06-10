@@ -91,9 +91,9 @@
 			special dates.
 		</p>
 		<button
-			class="ring-offset-background focus-visible:ring-ring mt-4 inline-flex h-10 items-center justify-center whitespace-nowrap rounded bg-gray-900 px-4 py-2 text-sm font-medium text-white transition-colors duration-300 hover:bg-gray-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+			class="ring-offset-background focus-visible:ring-ring mt-4 inline-flex h-10 items-center justify-center whitespace-nowrap rounded bg-sky-900 px-4 py-2 text-sm font-medium text-white transition-colors duration-300 hover:bg-gray-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
 		>
-			Calendar
+			My Timeline
 		</button>
 	</div>
 </div>
@@ -169,23 +169,23 @@
 >
 	<img
 		src="/about/me.png"
-		alt="About Us"
+		alt="My Naruto Avatar"
 		width="500"
 		height="500"
-		class="h-64 w-full rounded-lg md:h-auto md:w-1/2"
-		style="aspect-ratio: 500 / 500; object-fit: cover;"
+		class="w-full rounded-lg md:w-1/2"
+		style="object-fit: fit;"
 	/>
 	<div class="space-y-4 md:w-1/2">
 		<h2 class="text-3xl font-bold tracking-tighter md:text-4xl lg:text-5xl">About Us</h2>
 		<p class="text-gray-500 md:text-lg lg:text-xl">
 			Born in America, I feel my real home is the earth. I ignore these imaginary lines to draw my
-			own reality.
+			own reality which shows thru my art and every aspect of life.
 		</p>
 		<a
-			class="inline-flex h-10 items-center justify-center rounded-md bg-gray-900 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
+			class="inline-flex h-10 items-center justify-center rounded-md bg-sky-50 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-sky-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-sky-900 dark:text-gray-50 dark:hover:bg-sky-900/90 dark:focus-visible:ring-gray-300"
 			href="#"
 		>
-			Learn More
+			Send a Message
 		</a>
 		<div class="mt-4 flex space-x-4">
 			<a href="#">
@@ -225,4 +225,8 @@
 <!-- about us section end -->
 
 <style>
+	h1,
+	h2 {
+		letter-spacing: 0.2em;
+	}
 </style>
