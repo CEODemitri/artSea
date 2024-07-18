@@ -15,3 +15,10 @@ Edits
 6. New Updated UI in place. Let's Grow.
 
 ---
+
+7 18 24
+Edits
+
+1. Cleaning up the welcome box
+
+---
